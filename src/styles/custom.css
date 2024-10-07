@@ -1,0 +1,49 @@
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px; /* Adjust the scrollbar height */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a0aec0; /* Gray scrollbar thumb */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #f7fafc; /* Light track */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #a0aec0 #f7fafc;
+}
+
+/* custom.css */
+.message-button-container {
+    position: relative;
+    text-decoration: underline;
+  }
+  
+  .msg-icon {
+    position: absolute;
+    top:-8px;
+    left: 50%;
+    visibility: hidden;
+    margin: 0 auto;
+    min-width: 34px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: rgb(174, 35, 35);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .message-button-container:hover .msg-icon {
+    visibility: visible;
+    opacity: 1;
+  }
+  
