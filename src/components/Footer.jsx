@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterLogo from '../assets/images/FooterLogo.png';
+import FooterLogo from '../assets/images/footerLogo.png';
 import { Link } from 'react-router-dom';
 import FooterImage from '../assets/images/footerImage.png';
 import { FaStar } from 'react-icons/fa';
